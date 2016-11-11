@@ -11,33 +11,30 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 <body>
-  <section class="island">
-    <div>
-      <header>
-        <h1>Want to go to Mars?</h1>
-        <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      </header>
-      <form>
-        <div>
-          <h2 class="italic giga">Personal details</h2>
-        </div>
+  <form class="max-length">
 
-        <div class="push">
+  <h1>Want to go to Mars?</h1>
+  <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+  <fieldset>
+      <legend class="unit xs-1 s-1 m-1 l-1 xl-1 italic giga">Personal details</legend>
+
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="name" class="kilo">Name</label>
           <input id="name" name="name">
         </div>
 
-        <div class="push">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="age" class="kilo">Age</label>
           <input id="age" name="age">
         </div>
 
-        <div class="push">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="email" class="kilo">Email</label>
           <input id="email" type="email" name="email">
         </div>
 
-        <div class="push">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="physical-fitness" class="kilo">Physical fitness</label>
           <select id="physical-fitness" name="_subject">
             <option>Super-human</option>
@@ -46,27 +43,28 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
+      </div>
 
-        <div class="push">
-          <label for="address" class="kilo">Address</label>
-          <textarea id="address" name="address"></textarea>
-        </div>
+      <div class="push">
+        <label for="address" class="kilo">Address</label>
+        <textarea id="address" name="address"></textarea>
+      </div>
+    </fieldset>
 
-        <div>
-          <h2 class="italic giga">Mission statement</h2>
-        </div>
+    <fieldset>
+      <legend class="italic giga">Mission statement</legend>
 
-        <div class="push">
-          <label for="details" class="kilo">Why do you want to go to Mars?</label>
-          <textarea id="why" name="why"></textarea>
-        </div>
+      <div class="push">
+        <label for="why" class="kilo">Why do you want to go to Mars?</label>
+        <textarea id="why" name="why"></textarea>
+      </div>
+    </fieldset>
 
-        <div class="text-center">
-          <button class="btn primary-btn micro pad-t-1-8 pad-b-1-8" type="submit">Register for the trip!</button>
-        </div>
-      </form>
+    <div class="text-center">
+      <button class="btn primary-btn kilo pad-t-1-8 pad-b-1-8" type="submit">Register for the trip!</button>
     </div>
-  </section>
+
+  </form>
 
 </body>
 </html>

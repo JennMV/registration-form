@@ -1,3 +1,29 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+fieldset {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #f2f2f2;
+  }
+
+  body {
+    color: #000;
+    background-color: #fff;
+  }
+
+  section {
+
+  }
