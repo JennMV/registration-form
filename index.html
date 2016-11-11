@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Registration Form</title>
+  <title>Request to join the mission</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -13,13 +13,13 @@
 <body>
   <form class="max-length pad-t-2 pad-b-2" method="POST" action="https://formspree.io/mill0856@algonquinlive.com">
 
-  <h1 class="normal">Want to go to Mars?</h1>
-  <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-  <fieldset>
-      <legend class="unit xs-1 s-1 m-1 l-1 xl-1 italic giga">Personal details</legend>
+    <h1 class="normal">Want to go to Mars?</h1>
+    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <fieldset class="push-0">
+      <legend class="pad-b italic giga">Personal details</legend>
 
       <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push space-right">
           <label for="name" class="kilo">Name</label>
           <input id="name" name="name">
         </div>
@@ -29,7 +29,7 @@
           <input id="age" name="age">
         </div>
 
-        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push space-right">
           <label for="email" class="kilo">Email</label>
           <input id="email" type="email" name="email">
         </div>
@@ -51,8 +51,8 @@
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend class="italic giga">Mission statement</legend>
+    <fieldset class="push-0">
+      <legend class="pad-b italic giga">Mission statement</legend>
 
       <div class="push">
         <label for="why" class="kilo">Why do you want to go to Mars?</label>
@@ -64,6 +64,7 @@
       <button class="btn primary-btn kilo pad-t-1-8 pad-b-1-8" type="submit">Register for the trip!</button>
     </div>
 
+    <input type="hidden" name="hidden" value="Request to join mission">
   </form>
 
 </body>

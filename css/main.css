@@ -1,5 +1,12 @@
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+form {
+  color: #000;
+  background-color: #fff;
+  padding: 1rem;
 }
 
 fieldset {
@@ -15,15 +22,8 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    background-color: #f2f2f2;
+  .space-right {
+    padding-right: .5rem;
   }
 
-  body {
-    color: #000;
-    background-color: #fff;
-  }
-
-  section {
-
-  }
+}
